@@ -1,0 +1,39 @@
+:root {
+  --text-color: #011c44;
+  --second-color: #2a7fff;
+  --white-color: #ffffff;
+}
+/*Base*/
+ul {
+  list-style-type: none;
+}
+body {
+  color: var(--text-color);
+}
+/*Button*/
+.button {
+  color: var(--white-color);
+  background-color: var(--second-color);
+  border-radius: 32px;
+  border: 2px solid var(--second-color);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--text-color);
+}
+/*navigation*/
+.nav-link {
+  color: var(--text-color);
+}
+.nav-link:hover {
+  color: var(--second-color);
+}
+/*main section*/
+.main-title {
+  color: var(--second-color);
+}
+/*section title*/
+.section-title .bold {
+  font-weight: bold;
+}
