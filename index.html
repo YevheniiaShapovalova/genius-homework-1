@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Beauty salon</title>
+    <!--fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Styles-->
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
@@ -37,19 +43,22 @@
     <main>
       <section>
         <p>Косметологічна клініка</p>
-        <h1 class="main-title">Beauty zone</h1>
+        <h1 class="main-title" lang="en">Beauty zone</h1>
         <button class="button" type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="main-reserve">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
-      <section class="section-title" id="about-us-section">
-        <h2>
-          Перевтілюйтесь в <span class="accent" lang="en">Beauty zone!</span>
+      <section id="about-us-section">
+        <h2 class="section-title">
+          Перевтілюйтесь в
+          <span class="accent-beauty" lang="en">Beauty zone!</span>
         </h2>
-        <p>
+        <p class="section-about">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
+        <p class="section-about">
           B <span class="bold" lang="en">Beauty Zone</span> ми гарантуємо
           найвищі стандарти якості та приємний сервіс. Наші косметологічні
           процедури та препарати допоможуть вам підтримувати свою красу та
@@ -58,9 +67,11 @@
         <img src="./images/face-after.jpg" alt="обличчя до" />
         <img src="./images/face-do.jpg" alt="обличчя після" />
       </section>
-      <section class="section-title" id="why-us-section">
-        <h2>Чому люди <span class="accent">обирають нас</span></h2>
-        <ul>
+      <section id="why-us-section">
+        <h2 class="section-title">
+          Чому люди <span class="accent">обирають нас</span>
+        </h2>
+        <ul class="images">
           <li>
             <img src="./images/game-icon-1.svg" alt="перша іконка" />
             <p>
@@ -84,9 +95,11 @@
           </li>
         </ul>
       </section>
-      <section class="section-title" id="our-procedures">
-        <h2>Наші <span class="accent">процедури</span></h2>
-        <ul>
+      <section id="our-procedures">
+        <h2 class="section-title">
+          Наші <span class="accent">процедури</span>
+        </h2>
+        <ul class="procedury">
           <li>
             <img src="./images/image-1.jpg" alt="фото маски" />
             <p>Маски для обличчя</p>
@@ -101,8 +114,8 @@
           </li>
         </ul>
       </section>
-      <section class="section-titlets" id="contacts-section">
-        <h2>Як нас <span class="accent">знайти</span></h2>
+      <section id="contacts-section">
+        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.475609857351!2d30.772648475785797!3d50.506716783311816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgMDc0MDA!5e0!3m2!1sru!2spl!4v1738081111658!5m2!1sru!2spl"
           width="605"
@@ -112,10 +125,13 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        <p>Запишіться <span>безкоштовно</span> та отримайте подарунок</p>
+        <p class="section-about">
+          Запишіться <span class="present">безкоштовно</span> та отримайте
+          подарунок
+        </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <nav>
         <a href="./index.html"
           ><img src="./images/logo.svg" alt="логотип салону"
@@ -152,7 +168,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>&copy; 2022 Дані захищені</p>
+        <p class="data">&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>

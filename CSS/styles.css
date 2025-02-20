@@ -7,12 +7,25 @@
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
+
 body {
   color: var(--text-color);
+  font-family: "roboto", san-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1716;
+}
+h1,
+h2 {
+  font-family: "play", sans-serif;
 }
 /*Button*/
 .button {
   color: var(--white-color);
+  font-weight: 600;
   background-color: var(--second-color);
   border-radius: 32px;
   border: 2px solid var(--second-color);
@@ -25,15 +38,59 @@ body {
 /*navigation*/
 .nav-link {
   color: var(--text-color);
+  text-decoration: none;
 }
 .nav-link:hover {
   color: var(--second-color);
+  font-size: 18px;
+  font-weight: 700;
 }
 /*main section*/
 .main-title {
+  text-transform: capitalize;
+  font-size: 140px;
   color: var(--second-color);
+  line-height: 0.814;
+}
+.main-reserve {
+  font-size: 12px;
+  line-height: 1.5;
 }
 /*section title*/
+.section-title {
+  font-size: 64px;
+  line-height: 1.157;
+}
+.section-title .accent {
+  color: var(--second-color);
+}
+.section-title .accent-beauty {
+  color: var(--second-color);
+  text-transform: capitalize;
+}
+span.present {
+  color: var(--second-color);
+}
 .section-title .bold {
   font-weight: bold;
+}
+.section-about {
+  font-size: 22px;
+  line-height: 1.171;
+  font-weight: 600;
+}
+.images {
+  line-height: 1.333;
+}
+.procedury {
+  font-size: 22px;
+  line-height: 1.181;
+}
+/*footer*/
+.footer {
+  font-size: 16px;
+  line-height: 1.171;
+}
+.footer .data {
+  font-size: 13px;
 }
