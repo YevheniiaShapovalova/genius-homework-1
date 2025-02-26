@@ -1,3 +1,27 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v47-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 600;
+  src: url("../fonts/roboto-v47-latin-600.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/roboto-v47-latin-700.woff2") format("woff2");
+}
 :root {
   --text-color: #011c44;
   --second-color: #2a7fff;
@@ -16,7 +40,7 @@ body {
   font-family: "roboto", san-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.1716;
+  line-height: 1.171;
 }
 h1,
 h2 {
@@ -76,7 +100,7 @@ span.present {
 }
 .section-about {
   font-size: 22px;
-  line-height: 1.171;
+  line-height: 1.727;
   font-weight: 600;
 }
 .images {
